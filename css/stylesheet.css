@@ -46,6 +46,7 @@ ul {
 .button_generic {
   height: 38px;
   background: #f7ce3e;
+  text-decoration: none;
   border: none;
   border-radius: 5px;
   padding: 0 20px 0 20px;
@@ -53,12 +54,16 @@ ul {
 }
 
 /* Header */
-header a, .contact_bar button {
+header li a, .contact_bar button {
   color: #c5c1c0;
   text-decoration: none;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
+}
+
+.contact_bar a {
+  text-decoration: none;
 }
 header li {
   float: left;
@@ -70,8 +75,10 @@ header #branding {
   float: left;
 }
 
-header #branding h1 {
+header #branding h1 a {
   margin: 0;
+  text-decoration: none;
+  color: #ffffff;
   font-size: 2em;
 }
 
@@ -147,12 +154,60 @@ header .highlight:hover {
   border: 2px solid #ffffff;
 }
 
+/* Services page */
+aside#services_sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 20px;
+}
+
+article#services_main_col {
+  margin-top: 20px;
+  float: left;
+  width: 65%;
+  margin-bottom: 10px;
+}
+
+#services_main li p {
+  padding: 5px 0 5px 0;
+  text-align: justify;
+}
+
+#services_main h4 {
+  padding: 20px 0 0px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#services_sidebar h4 {
+    padding: 5px 0 5px 0;
+}
+
+.page_title {
+  font-family: 'Ubuntu', arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+ul #services li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #c5c1c0;
+}
+
+/* Contacts form */
+form {
+  margin: 5px 0 20px 0;
+  height: 500px;
+}
+
 /* Footer */
 footer {
   background-color: #f7ce3e;
   clear: both;
-  width: 100%;
-  height: 60px;
+  padding: 20px;
   text-align: center;
 }
 
