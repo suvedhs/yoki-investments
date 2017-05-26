@@ -1,0 +1,161 @@
+/* Colorset:
+screen #c5c1c0
+steel #0a1612
+denim #1a2930
+marigold #f7ce3e
+
+/* Global */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #c5c1c0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #0a1612;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #f7ce3e 3px solid;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.dark {
+  padding: 15px;
+  background: #0a1612;
+  color: #c5c1c0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button_generic {
+  height: 38px;
+  background: #f7ce3e;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px 0 20px;
+  color: #0a1612;
+}
+
+/* Header */
+header a, .contact_bar button {
+  color: #c5c1c0;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .current a {
+  color: #f7ce3e;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+header .current a:hover {
+  color: #f7ce3e;
+  text-decoration: underline;
+}
+
+header .highlight {
+  font-weight: bold;
+}
+
+header .highlight:hover {
+  text-shadow: 0px 0px 7px #ffffff;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 550px;
+  background: url("../img/showcase.jpg") no-repeat 0 -250px;
+  background-size: 1434px, 960px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.no-opacity {
+  opacity: 1;
+}
+
+#showcase h1 {
+  margin-top: 150px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+/* Contact Bar */
+.contact_bar {
+  padding: 15px;
+  color: #ffffff;
+  background: #1a2930;
+}
+
+.contact_bar button {
+  color: #000000;
+  font-weight: bold;
+  text-transform: none;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+.contact_bar button:hover {
+  border: 2px solid #ffffff;
+}
+
+/* Footer */
+footer {
+  background-color: #f7ce3e;
+  clear: both;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+
+footer p {
+  padding: 20px;
+}
