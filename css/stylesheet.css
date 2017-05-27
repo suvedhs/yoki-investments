@@ -20,7 +20,8 @@ body {
 .container {
   width: 80%;
   margin: auto;
-  overflow: hidden;
+  /*overflow: hidden;
+  */
   opacity: 1;
 }
 
@@ -57,8 +58,8 @@ ul {
 
 /* Header */
 .main_header {
-  /*background: none;
-  */
+  background: none;
+
 }
 
 header li a, .contact_bar button {
@@ -86,7 +87,7 @@ header #branding h1 a {
   margin: 0;
   text-decoration: none;
   color: #ffffff;
-  font-size: 2em;
+  font-size: 48px;
 }
 
 header nav {
@@ -119,10 +120,12 @@ header .highlight:hover {
 
 /* Showcase */
 #showcase {
-  min-height: 665px;
+  display: block;
+  min-height: 700px;
+  width: 100%;
   background: linear-gradient(
-      rgba(10, 22, 18, 0.5),
-      rgba(10, 22, 18, 0.5)
+      rgba(10, 22, 18, 0.25),
+      rgba(10, 22, 18, 0.25)
     ),url("../img/showcase_final.jpg");
   background-size: cover;
   text-align: center;
@@ -135,6 +138,7 @@ header .highlight:hover {
 }
 
 #showcase h1 {
+  display: relative;
   margin-top: 250px;
   font-size: 55px;
   margin-bottom: 10px;
@@ -172,6 +176,29 @@ header .highlight:hover {
 
 .contact_bar button:hover {
   border: 2px solid #ffffff;
+}
+
+.typeform-share {
+  display:inline-block;
+  text-decoration:none;
+  background-color:#1a2930;
+  color:white;
+  cursor:pointer;
+  font-family:Helvetica,Arial,sans-serif;
+  font-size:20px;
+  line-height:50px;
+  text-align:center;
+  margin:0;
+  height:50px;
+  padding:0px 33px;
+  border-radius:5px;
+  max-width:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-weight:bold;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
 /* Services page */
@@ -235,6 +262,13 @@ footer p {
   padding: 20px;
 }
 
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
 .send_to_bottom {
   position: absolute;
   bottom: 0;
@@ -245,3 +279,9 @@ footer p {
 .contact_footer {
   margin-top: 70px;
 }
+
+
+/* mobile and tablet conversions */
+
+/* something to change footer to bottom of page*/
+/* something to fix menu */
