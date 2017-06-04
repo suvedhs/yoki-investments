@@ -1,0 +1,46 @@
+/* Colorset:
+screen #c5c1c0
+steel #0a1612 rgb: 10,22,18
+denim #1a2930
+marigold #f7ce3e
+
+/* Global */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #c5c1c0;
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+header {
+  border-bottom: #f7ce3e 3px solid;
+  background: #0a1612;
+  color: #ffffff;
+}
+
+.services_main {
+  padding-bottom: 170px;
+}
+
+.send_to_bottom {
+  width: 100%;
+  height: 170px;
+  position: absolute;
+  background: #123456;
+  bottom: 0;
+  left: 0;
+}
+/* mobile and tablet conversions */
+
+/* something to change footer to bottom of page*/
+/* something to fix menu */

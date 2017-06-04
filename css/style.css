@@ -17,6 +17,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
 }
 
 .stay {
@@ -48,6 +49,8 @@ h1 {
 
 p {
   font-size: 32px;
+  width: 70%;
+  margin: auto;
 }
 
 nav {

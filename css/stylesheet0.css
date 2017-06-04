@@ -21,6 +21,7 @@ body {
   width: 80%;
   margin: auto;
   overflow: hidden;
+  
   opacity: 1;
 }
 
@@ -58,14 +59,6 @@ ul {
 #wrapper {
   min-height: 100%;
   position: relative;
-}
-
-strong {
-  font-weight: bold;
-}
-
-em {
-  font-style: italic;
 }
 
 /* Header */
@@ -190,29 +183,6 @@ header .highlight:hover {
   border: 2px solid #ffffff;
 }
 
-.typeform-share {
-  display:inline-block;
-  text-decoration:none;
-  background-color:#1a2930;
-  color:white;
-  cursor:pointer;
-  font-family:Helvetica,Arial,sans-serif;
-  font-size:20px;
-  line-height:50px;
-  text-align:center;
-  margin:0;
-  height:50px;
-  padding:0px 33px;
-  border-radius:5px;
-  max-width:100%;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  font-weight:bold;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-}
-
 /* Services page */
 aside#services_sidebar {
   float: right;
@@ -228,22 +198,19 @@ article#services_main_col {
 }
 
 .services_main {
+  padding: 10px;
+  height: 300px;
   padding-bottom: 170px;
 }
 
 .services_main li p {
   padding: 5px 0 5px 0;
   text-align: justify;
-
-}
-
-.services_main p {
-  font-size: 18px;
 }
 
 .services_main h4 {
   padding: 20px 0 0px 0;
-  font-size: 32px;
+  font-size: 18px;
   font-weight: bold;
   color: black;
   text-decoration: none;
@@ -255,12 +222,11 @@ article#services_main_col {
 
 #services_sidebar h4 {
     padding: 5px 0 5px 0;
-    color: #c5c1c0;
 }
 
 .page_title {
   font-family: 'Ubuntu', arial, sans-serif;
-  font-size: 44px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -281,7 +247,6 @@ form {
 /* Footer */
 footer {
   background-color: #f7ce3e;
-  clear: both;
   padding: 20px;
   text-align: center;
 }
@@ -299,7 +264,8 @@ footer a {
 
 .send_to_bottom {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
+  left: 0;
   width: 100%;
   height: 170px;
 }
