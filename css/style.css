@@ -17,7 +17,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
 .stay {
@@ -42,6 +41,87 @@ body {
   margin-bottom: 35%;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  opacity: 1;
+}
+
+header {
+  position: fixed;
+  background: #0a1612;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #f7ce3e 3px solid;
+  width: 100%;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 a {
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 48px;
+}
+
+header .highlight {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header .highlight:hover {
+  text-shadow: 0px 0px 7px #ffffff;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header li a {
+  color: #c5c1c0;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+  right: 0px;
+}
+
+header .current a {
+  color: #f7ce3e;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+header .current a:hover {
+  color: #f7ce3e;
+  text-decoration: underline;
+}
+
+#intro {
+  padding-top: 20%;
+}
+#scroll {
+  margin-top: 300px;
+  margin-bottom: -200px;
+}
+
 h1 {
   font-size: 55px;
   margin-bottom: 10px;
@@ -51,46 +131,6 @@ p {
   font-size: 32px;
   width: 70%;
   margin: auto;
-}
-
-nav {
-  padding: 300px 0 30px 0;
-  text-align: center;
-  color: white;
-}
-
-nav h3 {
-  position: relative;
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 60px;
-}
-
-nav li{
-  display: inline-block;
-}
-
-nav li a {
-  border: solid white 1px;
-  padding: 10px;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  position: relative;
-  margin-left: 5px;
-  margin-right: 5px;
-  bottom: 30px;
-}
-
-nav .current a {
-  border: solid white 1.5px;
-  font-weight: bold;
-}
-
-nav li a:hover {
-  border: solid white 3px;
-  font-weight: bold;
 }
 
 footer p, footer p a {
