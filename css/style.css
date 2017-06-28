@@ -7,6 +7,11 @@ marigold #f7ce3e
 /* Global */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+@font-face {
+  font-family: yokiFont;
+  src: url('TokyoSoft.ttf');
+}
+
 body {
   font-family: 'Ubuntu', arial, helvetica, sans-serif;
   font-color: #c5c1c0;
@@ -44,8 +49,20 @@ body {
 .container {
   width: 80%;
   margin: auto;
+  margin-top: -15px;
   overflow: hidden;
   opacity: 1;
+}
+
+#yoki-font {
+  font-family: yokiFont;
+  display: block;
+  font-size: 52px;
+}
+
+#investments {
+  display: block;
+  font-size: 29px;
 }
 
 header {
@@ -72,6 +89,7 @@ header #branding h1 a {
 header .highlight {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
 
 }
 
@@ -95,7 +113,7 @@ header li a {
 
 header nav {
   float: right;
-  margin-top: 10px;
+  margin-top: 30px;
   right: 0px;
 }
 
