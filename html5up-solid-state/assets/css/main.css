@@ -1,9 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
-@font-face {
-  font-family: yokiFont;
-  src: url('TokyoSoft.ttf');
-}
+
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -1608,10 +1605,6 @@
 	}
 
 /* Basic */
-.yoki-font {
-	font-family: yokiFont;
-	font-size: 125%;
-}
 
 	@-ms-viewport {
 		width: device-width;
